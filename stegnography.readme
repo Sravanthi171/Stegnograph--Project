@@ -1,0 +1,35 @@
+1. Project Title and Description
+
+What it includes:
+The project's name (e.g., "Image Steganography with LSB").
+A brief, clear description (e.g., "This project implements image steganography, allowing you to hide secret text messages within digital images using the Least Significant Bit (LSB) method.").
+
+2.## Technologies Used
+
+-   **Python:** The programming language used for implementation.
+-   **Pillow (PIL):** For image manipulation.
+- **io**: Used for working with byte data.
+-   **Google Colaboratory:** The development environment used for this project.
+- **google.colab.files**: Used for uploading and downloading files.
+- **IPython**: Used for displaying images and for cell execution.
+
+3.Key Features
+
+-   **Encoding:** Embeds a text message into a digital image.
+-   **Decoding:** Extracts the hidden text message from an encoded image.
+-   **LSB Method:** Utilizes the Least Significant Bit method for steganography.
+-   **Robustness:** Employs a length prefix to ensure reliable message decoding.
+-   **Image Integrity:** The encoded image remains visually unchanged.
+- **Adaptable**: The program works with any input image.
+
+
+
+4.## Future Scope
+
+-   **Increased Capacity:** Implement methods to hide more data per image.
+-   **Enhanced Robustness:** Make hidden data resistant to image manipulation.
+-   **Advanced Techniques:** Explore frequency domain steganography.
+- **Steganalysis resistance**: Attempt to resist detection techniques.
+-   **Encryption:** Add encryption for added security.
+- **Improved UI**: Add a user friendly interface.
+- **More image formats**: Add the ability to work with more image types.
